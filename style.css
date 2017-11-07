@@ -1,0 +1,393 @@
+html { 
+}
+
+body {
+  font-family: Roboto Slab;
+  background: black;
+  color: white;
+  height: 100%;
+  width: 100%;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  background-color: #faf6ec;
+}
+
+/* NAVBAR */
+.navigation {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 45px;
+  text-align: center;
+  padding-top: 0px;
+  padding-right: 75px;
+  z-index: 1;
+  /* SHADOW */
+  -webkit-box-shadow: 0px 0px 2px 0px   #000000;
+  -moz-box-shadow: 0px 0px 2px 0px       #000000;
+  box-shadow: 0px 0px 2px 0px #000000;
+  /* TRANSPARENCY */
+  background-color: rgba(1, 1, 1,       0.7);
+  color: rgba(1, 1, 1, 0.7);
+}
+
+.navigation a {
+  font-size: 16px;
+  padding-top: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.navigation ul
+{
+  margin-top: 12px;
+}
+
+.navigation ul li
+{
+  list-style-type: none;
+  display: inline;
+}
+
+.navigation li:before {
+  content: " | ";
+  color: #fff;
+}
+
+.navigation li:first-child:before {
+  content: none;
+}
+
+.navigation li a:hover {
+  color: #CCCCCC;
+  font-weight: 600;
+}
+
+/* HEADER DIV */
+#header {
+  text-align: center;
+
+}
+
+#welcome {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#header a {
+  font-size: 45px;
+  color: #fff;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+#header a:hover {
+  font-size: 50px;
+}
+
+/* SCROLL DOWN ARROW */
+.fa-angle-double-down {
+  vertical-align: 8%;
+}
+
+/* SECTION 1 WRAPPER */
+#wrapper1 {
+  font-family: Roboto Slab;
+  padding: 0;
+  margin: 0;
+  color: white;
+  position: center;
+  background: url('roadAhead.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+
+}
+
+
+
+/* Start the styles  */
+p {
+  line-height: 1.5;
+}
+h1 {
+  margin-bottom: 0;
+}
+h2 {
+  margin-top: 10px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+/* SECTION 2 WRAPPER */
+.wrapper2 {
+  padding: 30px 30px 10px 30px;
+  max-width: 1260px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #e74c3c;
+}
+#gymnastics {
+  background-size: cover;
+  background-image: url('knightsGym.jpg');
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  float: left;
+  shape-outside: circle();
+  margin: 25px;
+}
+/* SECTION 3 WRAPPER */
+.wrapper3 {
+  padding: 30px 30px 10px 30px;
+  max-width: 1260px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #9b59b6;
+  color: #ecf0f1;
+}
+#supervisor {
+  background-size: cover;
+  background-image: url('campSupervisor.jpg');
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  float: left;
+  shape-outside: circle();
+  margin: 25px;
+}
+/* SECTION 4 WRAPPER */
+.wrapper4 {
+  padding: 30px 30px 10px 30px;
+  max-width: 1260px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #1c2935;
+  color: #ecf0f1;
+}
+.wrapper4 h1{
+  color: dodgerblue;
+}
+#college {
+  background-size: cover;
+  background-image: url('bmcc.jpg');
+  width: 250px;
+  height: 270px;
+  border-radius: 50%;
+  float: left;
+  shape-outside: circle();
+  margin: 30px;
+}
+/* SECTION 5 WRAPPER */
+.wrapper5 {
+  padding: 30px 30px 10px 30px;
+  max-width: 1260px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #EC7357;
+  color: #ecf0f1;
+}
+#chess {
+  background-size: cover;
+  background-image: url('chessCoach.jpg');
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  float: left;
+  shape-outside: circle();
+  margin: 30px;
+}
+/* SECTION 6 WRAPPER */
+.wrapper6 {
+  padding: 30px 30px 10px 30px;
+  max-width: 1260px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #D50000;
+  color: #ecf0f1;
+}
+#robotics {
+  background-size: cover;
+  background-image: url('roboTitans.jpg');
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  float: left;
+  shape-outside: circle();
+  margin: 30px;
+}
+/* SECTION 7 WRAPPER */
+.wrapper7 {
+  padding: 30px 30px 10px 30px;
+  max-width: 1260px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #82C12F;
+  color: #ecf0f1;
+}
+#ps75 {
+  background-size: cover;
+  background-image: url('ps75.png');
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  float: left;
+  shape-outside: circle();
+  margin: 30px;
+}
+
+
+/* PORTFOLIO DIV */
+#portfolio {
+  background: #f5f5f5;
+  color: #55606A;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  margin-top: 0px;
+
+}
+/*slide of images*/
+.w3-container h2{
+  text-align: center;
+  color: #C29D73;
+}
+.w3-container button{
+  color: #C29D73;
+}
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
+/* FOOTER DIV */
+#footer {
+  background: #ffffff;
+  color: #55606A;
+  padding-top: 50px;
+  padding-bottom: 35px;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, {
+  font-family: Roboto Slab;
+  margin-bottom: 14px
+}
+
+h1 {
+  font-size: 80px;
+  font-family: Oswald;
+  letter-spacing: 3px;
+  line-height: 80px;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 36px;
+}
+
+h3 {
+  font-size: 26px;
+  line-height: 29px;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+h5 {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+h6 {
+  font-size: 15px;
+}
+
+.name {
+  color: #ffffff;
+  padding-top: 8px;
+  padding-left: 75px;
+  font-size: 25px;
+  line-height: 18px;
+}
+
+.name a {
+  color: #ffffff;
+  padding-left: 75px;
+  font-size: 25px;
+  line-height: 18px;
+}
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+/* SCROLL DOWN BUTTON */
+.btn-circle {
+  width: 70px;
+  height: 70px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+}
+
+.btn-circle:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+/* HEADSHOT */
+.img-round {
+  border-radius: 100%;
+  height: 250px;
+  width: 250px;
+}
+
+/* SOCIAL ICONS */
+.icon-btn {
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 30px;
+  text-indent: 30px;
+}
+
+a {
+  color: #55606A;
+}
+
+a:hover {
+  color: black;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.twitter-icn:hover {
+  color: #48c4d2;
+}
+
+.facebook-icn:hover {
+  color: #3b5998;
+}
+
+.instagram-icn:hover {
+  color: #fb913f;
+}
+
+@media screen and (max-width: 768px) {
+  h1{
+    font-size:30px;
+  }
+}
+
+
